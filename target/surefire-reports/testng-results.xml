@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-18T11:27:08 IST" name="AmazonFlipkart" finished-at="2024-01-18T11:27:42 IST" duration-ms="34161">
+    <groups>
+    </groups>
+    <test started-at="2024-01-18T11:27:08 IST" name="AmazonFlipkart" finished-at="2024-01-18T11:27:42 IST" duration-ms="34161">
+      <class name="testCase.Test1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.Test1@6622fc65]" started-at="2024-01-18T11:27:40 IST" name="setup" finished-at="2024-01-18T11:27:42 IST" duration-ms="1428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="finaltest()[pri:0, instance:testCase.Test1@6622fc65]" started-at="2024-01-18T11:27:42 IST" name="finaltest" finished-at="2024-01-18T11:27:42 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finaltest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.Test1@6622fc65]" started-at="2024-01-18T11:27:42 IST" name="tearDown" finished-at="2024-01-18T11:27:42 IST" duration-ms="675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.Test1 -->
+      <class name="testCase.AmazonIphonePriceTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.AmazonIphonePriceTest@2072acb2]" started-at="2024-01-18T11:27:09 IST" name="setup" finished-at="2024-01-18T11:27:13 IST" duration-ms="4488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="price_compare()[pri:0, instance:testCase.AmazonIphonePriceTest@2072acb2]" started-at="2024-01-18T11:27:13 IST" name="price_compare" finished-at="2024-01-18T11:27:25 IST" duration-ms="11499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- price_compare -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.AmazonIphonePriceTest@2072acb2]" started-at="2024-01-18T11:27:25 IST" name="tearDown" finished-at="2024-01-18T11:27:25 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.AmazonIphonePriceTest -->
+      <class name="testCase.FlipkartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.FlipkartTest@d3957fe]" started-at="2024-01-18T11:27:25 IST" name="setup" finished-at="2024-01-18T11:27:27 IST" duration-ms="2341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="price_compareFlipkart()[pri:0, instance:testCase.FlipkartTest@d3957fe]" started-at="2024-01-18T11:27:27 IST" name="price_compareFlipkart" finished-at="2024-01-18T11:27:40 IST" duration-ms="12788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- price_compareFlipkart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.FlipkartTest@d3957fe]" started-at="2024-01-18T11:27:40 IST" name="tearDown" finished-at="2024-01-18T11:27:40 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.FlipkartTest -->
+    </test> <!-- AmazonFlipkart -->
+  </suite> <!-- AmazonFlipkart -->
+</testng-results>

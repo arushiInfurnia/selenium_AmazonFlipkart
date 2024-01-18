@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [AmazonFlipkart]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="AmazonFlipkart(failed)" verbose="0">
+    <classes>
+      <class name="testCase.FlipkartTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="price_compare"/>
+        </methods>
+      </class> <!-- testCase.FlipkartTest -->
+      <class name="testCase.AmazonIphonePriceTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="price_compare"/>
+        </methods>
+      </class> <!-- testCase.AmazonIphonePriceTest -->
+    </classes>
+  </test> <!-- AmazonFlipkart(failed) -->
+</suite> <!-- Failed suite [AmazonFlipkart] -->
