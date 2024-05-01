@@ -8,12 +8,12 @@ public class FlipkartIphonePage extends BasePage{
 
 	public FlipkartIphonePage(WebDriver driver) {
 		super(driver);
-		
+
 	}
 
-	@FindBy(xpath="(//div[@class='_30jeq3 _1_WHN1'])[1]")
+	@FindBy(xpath="(//div[@class='Nx9bqj _4b5DiR'])[1]")
 	WebElement price;
-	
+
 	public String capturePriceFlipkart()
 	{
 		try
